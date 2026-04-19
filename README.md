@@ -1,5 +1,5 @@
 # MicroLending-Solidity-Demo
-A self-contained, teaching-focused DeFi micro-lending protocol written in Solidity and deployed on the Sepolia testnet. Built to demonstrate the core primitives that power production lending protocols such as Aave and Compound — collateralised borrowing, permissionless liquidation, and atomic repayment — in a form that can be read, understood, and experimented with by students new to smart contract development.
+A self-contained, teaching-focused DeFi micro-lending protocol written in Solidity and deployed on the Sepolia testnet. Built to demonstrate the core primitives that power production lending protocols such as Aave and Compound - collateralised borrowing, permissionless liquidation, and atomic repayment - in a form that can be read, understood, and experimented with by students new to smart contract development.
 Overview
 MicroLending solves a real DeFi problem: giving holders of appreciated crypto assets access to liquidity without forcing them to sell. A user locks ETH as collateral, borrows stablecoins against it, and repays the loan later to reclaim their ETH — all through a single smart contract, with no intermediaries, no paperwork, and no credit check.
 The contract implements the full loan lifecycle in under 300 lines of Solidity:
